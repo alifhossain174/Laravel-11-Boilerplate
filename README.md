@@ -15,3 +15,9 @@ This guide outlines the steps to install Laravel 11 and set up Laravel Breeze us
 4. npm run dev
 
 Then Stop the Terminal and run php artisan serve to use application
+
+## To add the API support in laravel 11
+1. create a api.php file inside routes folder
+2. register the file in bootstrap\app.php "api: __DIR__.'/../routes/api.php',"
+3. Install Sanctum if needed
+4. Add the Sanctum middleware in app.php as you dont have kernel.php in laravel 11
