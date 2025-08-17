@@ -11,8 +11,6 @@ This guide outlines the steps to install Laravel 11 and set up Laravel Breeze us
 ## Installing Breeze
 1. composer require laravel/breeze --dev
 2. php artisan breeze:install (select blade as a option)
-3. npm install
-4. npm run dev
 
 Then Stop the Terminal and run php artisan serve to use application
 
